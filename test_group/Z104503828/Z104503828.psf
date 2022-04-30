@@ -1,0 +1,76 @@
+PSF EXT
+
+      11 !NTITLE
+ REMARKS original generated structure x-plor psf file
+ REMARKS topology topologies/0.top_all36_prot.rtf 
+ REMARKS topology topologies/1.top_all36_lipid.rtf 
+ REMARKS topology topologies/2.top_water_ions.rtf 
+ REMARKS topology topologies/3.top_all36_cgenff.rtf 
+ REMARKS topology topologies/4.UNL.top 
+ REMARKS topology topologies/5.top_all36_carb.rtf 
+ REMARKS topology topologies/6.toppar_all36_carb_glycopeptide.str 
+ REMARKS topology topologies/7.top_all36_prot_arg0.rtf 
+ REMARKS topology topologies/8.top_ions_won.rtf 
+ REMARKS segment X { first NONE; last NONE; auto angles dihedrals }
+
+      13 !NATOM
+         1 X        1        UNL      C1       CG2R51   0.587567       12.0110           0
+         2 X        1        UNL      C2       CG2R51  -0.746179       12.0110           0
+         3 X        1        UNL      C3       CG2R53   0.811401       12.0110           0
+         4 X        1        UNL      N4       NG321   -0.951422       14.0070           0
+         5 X        1        UNL      N5       NG2R50  -0.508141       14.0070           0
+         6 X        1        UNL      O6       OG2R50  -0.179112       15.9994           0
+         7 X        1        UNL      H7       HGR51    0.269927        1.0080           0
+         8 X        1        UNL      H8       HGPAM2   0.389622        1.0080           0
+         9 X        1        UNL      H9       HGPAM2   0.389622        1.0080           0
+        10 X        1        UNL      C10      CG331   -0.576064       12.0110           0
+        11 X        1        UNL      H11      HGA3     0.170926        1.0080           0
+        12 X        1        UNL      H12      HGA3     0.170926        1.0080           0
+        13 X        1        UNL      H13      HGA3     0.170926        1.0080           0
+
+      13 !NBOND: bonds
+         1         2         1        10         2         7         3         2
+         4         3         4         9         5         6         5         3
+         6         1         8         4        10        11        10        12
+        13        10
+
+      20 !NTHETA: angles
+         1        10        12         1        10        11         1         2         7
+         2         1        10         3         4         9         3         2         7
+         3         2         1         4         3         2         5         6         1
+         5         3         2         5         3         4         6         5         3
+         6         1        10         6         1         2         8         4         9
+         8         4         3        11        10        12        13        10        12
+        13        10        11        13        10         1
+
+      23 !NPHI: dihedrals
+         1         6         5         3         1         2         3         5
+         1         2         3         4         2         3         5         6
+         2         3         4         8         2         3         4         9
+         2         1         6         5         2         1        10        13
+         2         1        10        11         2         1        10        12
+         3         2         1         6         3         2         1        10
+         4         3         5         6         4         3         2         7
+         5         6         1        10         5         3         4         8
+         5         3         4         9         5         3         2         7
+         6         1         2         7         6         1        10        13
+         6         1        10        11         6         1        10        12
+         7         2         1        10
+
+       1 !NIMPHI: impropers
+         3         2         5         4
+
+       0 !NDON: donors
+
+
+       0 !NACC: acceptors
+
+
+       0 !NNB
+
+         0         0         0         0         0         0         0         0
+         0         0         0         0         0
+
+       1       0 !NGRP
+         0         0         0
+
